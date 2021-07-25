@@ -14,15 +14,11 @@
 
     $ pip install -r requirements.txt
 
-  4. Now direct to Fampay folder for starting the django server.
-
-    $ cd Fampay
-
-  5. Now before running the server, we have to setup database, so run.
+  4. Now before running the server, we have to setup database, so run.
  
     $ python3 manage.py migrate
 
-  6. Now execute the following commands in separate terminal/ command line
+  5. Now execute the following commands in separate terminal/ command line
   
     $ python manage.py process_tasks
     $ python manage.py runserver
